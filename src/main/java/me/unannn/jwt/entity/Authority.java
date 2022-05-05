@@ -1,4 +1,4 @@
-package me.unannn.jwt.config.entity;
+package me.unannn.jwt.entity;
 
 import lombok.*;
 

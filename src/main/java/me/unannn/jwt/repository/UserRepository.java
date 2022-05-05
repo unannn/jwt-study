@@ -1,6 +1,6 @@
 package me.unannn.jwt.repository;
 
-import me.unannn.jwt.config.entity.User;
+import me.unannn.jwt.entity.User;
 import org.springframework.data.jpa.repository.EntityGraph;
 import org.springframework.data.jpa.repository.JpaRepository;
 

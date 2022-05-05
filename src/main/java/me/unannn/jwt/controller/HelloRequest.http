@@ -11,3 +11,22 @@ Content-Type: application/json
 }
 
 ###
+
+POST http://localhost:8080/api/signup
+Content-Type: application/json
+
+{
+  "username": "unannn",
+  "password": "unannn",
+  "nickname": "nickname"
+}
+
+###
+
+
+GET http://localhost:8080/api/user
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiIiLCJleHAiOjE2NTE4NjA1MDV9.MyVoXCEItOm0tQjVOZjNtrlWKjzscsLVrTwHIh-Nn-DVXnHVUdIXudMnCrl7fvkRG3Wa6YsbsZDXGhPz6y6qsg
+
+###
+GET http://localhost:8080/api/user/unannn
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiIiLCJleHAiOjE2NTE4NjA1MDV9.MyVoXCEItOm0tQjVOZjNtrlWKjzscsLVrTwHIh-Nn-DVXnHVUdIXudMnCrl7fvkRG3Wa6YsbsZDXGhPz6y6qsg
